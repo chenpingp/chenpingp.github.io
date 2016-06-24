@@ -1,1 +1,366 @@
-
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>百度云盘</title>
+		<link rel="stylesheet" type="text/css" href="css/reste.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bdyp.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>				
+	</head>
+	<body>
+		<header class="hdWrap clearfix">
+			<a href="http://yun.baidu.com/#from=share_yun_logo" title="百度云" class="bdy_log fl">
+				<img src="img/bauduyun.jpg"/>
+			</a>
+			<div class="nav fl">
+				<a href="#" class="hp fl">主页</a>
+				<div class="cloud_box fl">
+					<a href="#" class="cloud clearfix" id="cloud1">
+						<em class="fl">网盘</em>
+						<span class="icon bg fl" id="cloudIcon"></span>
+					</a>
+					<div class="cloudNav" id="cloudNav1">
+						<a href="#" class="fl">
+							<span class="w_icon bg"></span>
+							<em>网盘</em>
+						</a>
+						<a href="#" class="fl">
+							<span class="t_icon bg"></span>
+							<em>通讯录</em>
+						</a>
+						<a href="#" class="fl">
+							<span class="h_icon bg"></span>
+							<em>通话记录</em>
+						</a>
+						<a href="#" class="fl">
+							<span class="d_icon bg"></span>
+							<em>短信</em>
+						</a>
+						<a href="#" class="fl">
+							<span class="x_icon bg"></span>
+							<em>相册</em>
+						</a>
+						<a href="#" class="fl">
+							<span class="z_icon bg"></span>
+							<em>文章</em>
+						</a>
+						<a href="#" class="fl">
+							<span class="j_icon bg"></span>
+							<em>记事本</em>
+						</a>
+						<a href="#" class="fl">
+							<span class="s_icon bg"></span>
+							<em>手机找回</em>
+						</a>
+						<a href="#" class="fl">
+							<span class="y_icon bg"></span>
+							<em>云直播</em>
+						</a>
+					</div>
+				</div>
+				<a href="#" class="share fl">分享</a>
+				<a href="#" class="application fl">应用</a>
+			</div>
+			<div class="info fr clearfix">
+				<a href="#" class="discount fl">百度云超级会员限时折扣</a>
+				<div class="search_form fl">
+					<input type="text" placeholder="搜索你的文件" class="text fl" id="search_input"/>
+					<input type="button" value="搜索" class="search fl"/>
+					<ul id="search_result"></ul>
+				</div>
+				<s class="line fl"></s>
+				<div class="user_box fl">
+					<a href="http://yun.baidu.com/buy/center?tag=1&from=hicon" class="crown_icon bg fl"></a>
+					<a href="#" class="username fl" id="userName">
+						<em class="fl">云起非攻</em>
+						<span class="icon bg fl"></span>
+					</a>
+					<div id="userInfo" class="userinfo">
+						<span class="bg"></span>
+						<a href="#">个人资料</a>
+						<a href="#">购买容量</a>
+						<a href="#">云冲印</a>
+						<s class="hline"></s>
+						<a href="#">退出</a>
+					</div>
+				</div>
+				<s class="line fl"></s>
+				<a href="#" class="usercenter fl">会员中心</a>
+				<s class="line fl"></s>
+				<a href="#" class="userdld fl">客户端下载</a>
+				<s class="line fl"></s>
+				<a href="#" class="notice fl">通知</a>
+				<s class="line fl"></s>
+				<div class="more_box fl" id="moreBox">
+					<a href="#" class="more clearfix fl">
+						<em class="fl">更多</em>
+						<span class="icon fl bg"></span>
+					</a>
+					<div class="morenav" id="moreNav">
+						<span class="bg"></span>
+						<a href="#">移动开放平台</a>
+						<s class="hline"></s>
+						<a href="#">收藏工具</a>
+						<a href="#">版本更新</a>						
+						<a href="#">帮助中心</a>
+						<a href="#">问题反馈</a>
+						<a href="#">服务协议</a>						
+						<a href="#">权利声明</a>
+					</div>
+				</div>	
+			</div>
+		</header>
+		<div class="content clearfix">
+			<div class="cont_lf fl">
+				<ul class="cont_lft">
+					<li class="alldocli">
+						<a href="#" class="alldoca clearfix">
+							<span class="q_icon bg fl"></span>
+							<em class="fl alldoc">全部文件</em>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="clearfix" id="pic_list">
+							<span class="tp_icon bg fl"></span>
+							<em class="fl">图片</em>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="clearfix">
+							<span class="wd_icon bg fl"></span>
+							<em class="fl">文档</em>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="clearfix">
+							<span class="sp_icon bg fl"></span>
+							<em class="fl">视频</em>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="clearfix">
+							<span class="zz_icon bg fl"></span>
+							<em class="fl">种子</em>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="clearfix">
+							<span class="yy_icon bg fl"></span>
+							<em class="fl">音乐</em>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="clearfix">
+							<span class="qt_icon bg fl"></span>
+							<em class="fl">其他</em>
+						</a>
+					</li>
+				</ul>
+				<s class="sline"></s>
+				<a href="#" class="myshare clearfix">
+					<span class="fx_icon bg fl"></span>
+					<em class="fl">我的分享</em>
+				</a>
+				<s class="sline"></s>
+				<a href="#" class="recycle clearfix">
+					<span class="hs_icon bg fl"></span>
+					<em class="fl">回收站</em>
+				</a>
+				<ul class="cont_leb clearfix">
+					<li class="fl">
+						<a href="#">
+							<span class="yg_icon bg"></span>
+							<em>云管家</em>
+						</a>
+					</li>
+					<li class="fl">
+						<a href="#">
+							<span class="an_icon bg"></span>
+							<em>Android</em>
+						</a>
+					</li>
+					<li class="fl">
+						<a href="#">
+							<span class="ip_icon bg"></span>
+							<em>iPhone</em>
+						</a>
+					</li>
+					<li class="marelist fl">
+						<a href="#">
+							<span class="mr_icon bg"></span>
+							<em>更多</em>
+						</a>
+						<div class="morebox clearfix">
+							<span class="mo_icon bg"></span>
+							<a href="#" class="fl">
+								<span class="wp_icon bg"></span>
+								<em>WP</em>
+							</a>
+							<a href="#" class="fl">
+								<span class="iP_icon bg"></span>
+								<em>iPad</em>
+							</a>
+							<a href="#" class="fl">
+								<span class="ma_icon bg"></span>
+								<em>Mac同步盘</em>
+							</a>
+							<div class="qcode fl">
+								<span class="sm_icon bg"></span>
+								<em>扫描二维码下载</em>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="contkr">
+					<div class="llbox clearfix">
+						<span class="llicon bg fl"></span>
+						<span class="fl">免费领取2048G</span>
+						<span class="longl fl">容量啦~</span>
+					</div>
+					<div class="dline"></div>
+					<div class="clearfix">
+						<span class="fl">0B/5G</span>
+						<span class="fr">扩容</span>
+					</div>
+				</div>
+			</div>
+			<div class="cont_rt fl">
+				<ul class="contrt_hd clearfix">
+					<li class="uploading fl">
+						<span class="upicon bg fl"></span>
+						<span class="upload fl">上传</span>
+						<input type="file" class="uploadbtn" id="uploadbtn">
+						<!--<input type="file" name="" class="upload fl"/>-->
+						<span class="sjicon bg fl"></span>
+						<input type="file" class="uploaddoc">
+						
+						
+					</li>
+					<li class="xjdoc fl">
+						<span class="xjicon bg fl"></span>
+						<span class="fl">新建文件夹</span>
+					</li>
+					<li class="lxdownload fl">
+						<span class="lxicon bg fl"></span>
+						<span class="fl">离线下载</span>
+					</li>
+					<li class="mdevice fl">
+						<span class="mdicon bg fl"></span>
+						<span class="device fl">我的设备</span>
+						<span class="sjicon bg fl"></span>
+						<div class="hdevice">
+							<span>推送任务列表</span>
+							<span>添加设备</span>
+						</div>
+					</li>
+					<!--<li class="setstate fr clearfix">
+						<span class="setlf bg fl"></span>
+						<span class="setrt bg fl"></span>
+					</li>-->
+				</ul>
+				<div class="contrt_cont">
+					<div class="alldocbox clearfix" id="alldocbox">
+						<div id="file_dir" class="fl">
+							<span >全部文件 | </span>
+							<span id="returnNext">返回上一级 | </span>
+						</div>
+						
+						<span class="fr" id="totle_file">已全部加载，共0个</span>
+					</div>
+					<div class="changebox">
+						<div class="change">
+							<input type="checkbox" class="chicon"/>
+						</div>
+						<div class="checkbox clearfix">
+							<input type="checkbox" class="chdicon fl"/>
+							<span class="chdtext fl">已选中0个文件/文件夹</span>
+							<ul class="optbox fl">
+								<li class="delete fl">
+									<span class="sc_icon bg fl"></span>
+									<em class="fl">删除</em>
+								</li>
+								<li class="rename fl">重命名</li>
+								<li class="copyto fl">复制到</li>
+								<li class="moveto fl">移动到</li>
+							</ul>
+						</div>
+					</div>
+					<div>
+						<ul class="list">
+							<!--<li>								
+								<div class='libox'>
+									<input type='checkbox' class='inpch'>
+									<img src='img/docpic.jpg'>									
+								</div>
+								<input type='text' class='inptext' value='新建文件夹'>
+							</li>-->
+						</ul>
+						<ul class="contextmenu"></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="loadbox">			
+			<div class="box_shadow"></div>
+			<span class="close_btn">X</span>
+			<div class="load_main">
+				<h3 class="load_head">百度云上传</h3>				
+				<ul class="load_list">
+					<li>
+						<span class="file_name fl">123</span>
+						<span class="load_scale fl">50%</span>
+						<div class="li_shadow"></div>
+						<span class="check">查看<span>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+		<div class="show_content">
+			<span></span>
+		</div>
+		<div class="all_file">
+			<header class="move_head">
+				<h3 class="fl">移动到</h3>
+				<span class="fr no_ico">X</span>
+			</header>
+			<ul class="cont">
+				<li>
+					<div id="list1">
+						<input type="button" value="+"/>
+						<img src="img/docpic.jpg">
+						<span>全部文件</span>						
+					</div>
+				</li>
+			</ul>
+			<footer class="move_confirm">
+				<input type="button" value="确定" class="yes"/>
+				<input type="button" value="取消" class="no"/>
+			</footer>
+		</div>
+		<div class="all_file">
+			<header class="move_head">
+				<h3 class="fl">复制到</h3>
+				<span class="fr no_ico">X</span>
+			</header>
+			<ul class="cont2">
+				<li>
+					<div id="list2">
+						<input type="button" value="+"/>
+						<img src="img/docpic.jpg">
+						<span>全部文件</span>						
+					</div>
+				</li>
+			</ul>
+			<footer class="move_confirm">
+				<input type="button" value="确定" class="yes1"/>
+				<input type="button" value="取消" class="no1"/>
+			</footer>
+		</div>
+		<script src="js/jquery-2.2.2.js"></script>		
+		<script src="js/data.js"></script>
+		<script src="js/tree.js"></script>
+		<script src="js/tool.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>

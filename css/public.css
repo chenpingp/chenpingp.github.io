@@ -1,0 +1,48 @@
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.bg{
+	background-image: url(../img/xbt.png);
+	background-repeat: no-repeat;
+}
+input{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.contrt_cont .show{
+	display: block;
+}
+#search_result li{
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: black;
+	background-color: white;
+	
+}
+#search_result li:hover{
+	background-color: gainsboro;
+	
+}
+#search_result{
+	position: absolute;
+	left: 0;
+	top: 35px;
+	width: 114px;
+	
+}
+.search_form{
+	position: relative;
+}
+.activeBg{
+	background-color: gainsboro;
+}

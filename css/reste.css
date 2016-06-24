@@ -1,0 +1,20 @@
+body{
+	margin: 0px;
+}
+a{
+	text-decoration:none;
+	vertical-align:top;
+	*cursor: pointer;
+}
+em{
+	font-style: normal;
+}
+img{
+	border:0;
+	vertical-align:top;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
