@@ -1,0 +1,94 @@
+.pull_down{
+	*overflow: hidden;
+}
+.type_box li{
+	*vertical-align: top;
+}
+.item .gt,.dotted,.like_bigbox .line_ico{
+	*overflow: hidden;
+}
+.new_content .new_item{
+	*vertical-align: top;
+}
+.like_box .like_item{
+	*display: inline;
+}
+.tese_left1 .text_top .line_left,.tese_left1 .text_top .line_right,.tese_left2 .text_top .line_left,.tese_left2 .text_top .line_right,.dress_text .text_top .line_left,.dress_text .text_top .line_right{
+	overflow: hidden;
+}
+.clock_text .line_right,.clock_text .line_left,.big_ico .big_text .text1 .line_ico2,.big_ico .big_text .text1 .line_ico,.position_top .line_left,.position_top .line_right{
+	overflow: hidden;
+}
+.tab .item a{
+	zoom:1;
+}
+.sec_left1 .left1_text .group{
+	*display: inline;
+}
+.shop_tit .shop_logo,.describe .friend s,.sec_left a .block{
+	*display: inline;
+}
+.explain_sec .cancel{
+	*display: inline;
+}
+.duox .ico{
+	overflow: hidden;
+}
+.explain_same form .sure{
+	overflow: hidden;
+}
+.fis_right .grup .ico,.fis_right .blue .ico{
+	*display: inline;
+}
+.address_box .address .ico{
+	overflow: hidden;
+}
+.address_box .margin39{
+	*display: inline;
+}
+.operate .contrast .ico{
+	*display: inline;
+	overflow: hidden;
+}
+.turning_left .grup .ico{
+	*display: inline;
+}
+.select .turning_right{
+	*display: inline;
+}
+.turning_left .grup .ico{
+	overflow: hidden;
+}
+.turning_left .blue .ico{
+	overflow: hidden;
+}
+.fis_right .grup .ico, .fis_right .blue .ico{
+	*overflow: hidden;
+}
+.item .item_right .text_bg .arrow{
+	*overflow: hidden;
+}
+.news_tit .more .arrow{
+	*overflow: hidden;
+}
+.login s{
+	*display: inline;
+}
+.login .margin4{
+	*display: inline;
+}
+.login a .ico_arrow{
+	overflow: hidden;
+}
+.my a .ico_arrow{
+	overflow: hidden;
+}
+.assess .line{
+	*display: inline;
+}
+.page3_foot1 .list_box{
+	*display: inline;
+}
+.pic_l .small_box .small{
+	*display: inline;
+}

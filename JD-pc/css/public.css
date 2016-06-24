@@ -1,0 +1,21 @@
+body{
+	font: 12px "宋体";
+}
+.bg{
+	background-image: url(../img/big_ico.png);
+	background-repeat: no-repeat;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float:right;
+}
+.clearfix{
+	*zoom:1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
